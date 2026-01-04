@@ -1,4 +1,4 @@
-# StockPredictor (Ontology-based Stock Assistant) *(Experiment & Pivot)*
+# StockPredictor (Ontology-based Stock Assistant) 
 
 온톨로지 기반(Neo4j)으로 **주가/수급/뉴스·감성·이벤트** 데이터를 의미 단위로 연결하고,  
 조회/분석 파이프라인과 예측 실험을 수행한 프로젝트입니다.  
@@ -89,4 +89,5 @@
 ## Lessons Learned
 - 예측 프로젝트에서 “모델 개선”보다 먼저 필요한 것은 **평가 지표/백테스트 조건 고정**과 **데이터 누수 방지**였습니다.
 - 실패 이후에도 수집/전처리/온톨로지 적재 자산을 재사용해, **상대 점수 기반 의사결정 보조**로 방향 전환이 가능했습니다.
+
 
